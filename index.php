@@ -3,7 +3,6 @@
     <head>
         <title>Calvin Loveland</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="icon" type="image/png" href="favicon.ico">
     </head>
     <body>
     <div id="main">
