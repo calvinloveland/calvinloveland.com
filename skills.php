@@ -1,16 +1,12 @@
-$skillsFile = fopen("skills.csv");
+<?php
+$skillsFile = fopen("skills.csv","r");
 $skills = array();
+$type = $_GET["type"];
 while(!feof($skillsFile)){
     $line = fgets($skillsFile);
     $values = explode(",",$line);
-    array_push($skills,array("name"=>$values[0],"type"=>$values[1]));
+    if(empty($type) || $type == "all" || trim($values[1]) == $type)
+        echo($values[0]."\n");
 }
-print_r($skills);
-$type = $_GET["type"];
-if(empty($type) || $type == "all")
-{
-    foreach ($skills as &$element) {
-        echo($element[0]+$element[1])
-    }
-}
-		
+
+?>
