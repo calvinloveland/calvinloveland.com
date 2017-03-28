@@ -6,14 +6,14 @@
     </head>
     <body>
     <div id="main">
-
     <?php include("header.html");?>
         <div id="title">
             <img id="profile" src="me_irl.jpg"/>
                 <span class="title-line" style="text-decoration: underline;">Calvin Loveland</span>
             <hr style="width:75%; color: #0e1717;">
             <p>I am a computer science student at Utah State University</p>
-            <p>Experienced with C#, C++, Java, HTML, PHP, and CSS</p>
+            <h3>Experienced in:</h3>
+            <?php include("experience.html");?>
         </div>
     <p id="disclaimer">UNDER CONSTRUCTION</p>
     </body>
