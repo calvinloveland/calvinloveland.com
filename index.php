@@ -15,7 +15,6 @@
             <h3>Experienced in:</h3>
             <?php include("experience.html");?>
         </div>
-    <p id="disclaimer">UNDER CONSTRUCTION</p>
     </body>
 
     </div>
