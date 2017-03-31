@@ -34,6 +34,7 @@ body{
     margin:auto;
     margin-top:3%;
     text-align: center;
+    padding-bottom:3%;
 }
 #title>span{
     text-shadow: 2px 2px 2px #000;
