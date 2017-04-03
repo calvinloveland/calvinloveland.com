@@ -6,7 +6,7 @@
     </head>
     <body>
     <div id="main">
-    <?php include("header.html");?>
+        <?php include("header.html"); ?>
         <div id="title">
             <img id="profile" src="me_irl.jpg"/>
                 <span class="title-line" style="text-decoration: underline;">Calvin Loveland</span>
