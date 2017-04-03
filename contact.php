@@ -45,8 +45,8 @@
             !empty($_GET['subject'])
         ) {
 
-            $to = 'contact.calvinloveland@gmail.com';
-            $subject = $_GET['subject'] . ' - ' . $_GET['first_name'] . ' ' . $_GET['last_name'];
+            $to = 'calvinloveland@gmail.com';
+            $subject = 'WEBSITE: '.$_GET['subject'] . ' - ' . $_GET['first_name'] . ' ' . $_GET['last_name'];
             $message = $_GET['message'];
             $message = wordwrap($message, 70, "\r\n");
             $headers = 'From: ' . $_GET['email'] . "\r\n" .
