@@ -7,7 +7,7 @@
     <body>
     <div id="main">
         <?php include("header.html"); ?>
-        <div id="title">
+        <div id="body">
             <img id="profile" src="me_irl.jpg"/>
                 <span class="title-line" style="text-decoration: underline;">Calvin Loveland</span>
             <hr style="width:75%; color: #0e1717;">
